@@ -15,7 +15,7 @@ h1,h2{
 
     font-family: Lato,sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     color: #252525;
 }
 #logo{ 
@@ -25,8 +25,8 @@ margin-left: 30px;}
 
 /* nav links */
 
-#menu {font-size: 100%;
-letter-spacing: 5px;}
+#menu {font-size: 110%;
+letter-spacing: 4px;}
 
 #menu, #logo {
     line-height: 75px;
@@ -53,13 +53,11 @@ color: #fff;
 
 }
 
-
-
 #hero-image{
 
     height: 600px;
     width: 100%;
-    background-image: url('./image/123.jpg')  no-repeat center center;
+    background-image: url('../image/123.jpg')  no-repeat center center;
 
 animation-name: hero-zoom;
 animation-duration: 5s;
@@ -100,7 +98,7 @@ transform: scale(1);
 
     background-color: rgba(164,219,232,7);
 
-    bottom:3opx;
+    bottom:30px;
     right:150px;
     position: absolute;
 
@@ -115,15 +113,41 @@ height:600px;
 
 #left-about { padding-top:30px;
 width:33%;
-float:left;
-background-color: aqua;}
+float:left;}
 
 #right-about {padding-top:30px;
     width:33%;
     float:right;
-background-color: azure;}
+}
 
     #center-about {width: 33%;
         margin: 0 auto
         ;
-    background-color: aquamarine;}
+    }
+
+    hr { border-top:   1px solid #3a3a3a;
+    width: 100%;
+margin: 5px 0;}
+    
+    .left-about-heading { width:60%;
+        float:right;
+        line-height: 20px;
+        clear:both;
+        margin-bottom: 50px;
+
+    }
+    .right-about-heading {
+        width: 60%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+    }
+    
+    .right-about-heading h2 {
+        text-align: right;
+    }
+    
+    .right-about-heading p {
+        text-align: right;
+    }
