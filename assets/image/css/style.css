@@ -20,7 +20,8 @@ h1,h2{
 }
 #logo{ 
     float: left;
-font-size: 280%;}
+font-size: 280%;
+margin-left: 30px;}
 
 /* nav links */
 
@@ -104,3 +105,25 @@ transform: scale(1);
     position: absolute;
 
 }
+
+
+/* About us */
+
+#about-us {
+height:600px;
+}
+
+#left-about { padding-top:30px;
+width:33%;
+float:left;
+background-color: aqua;}
+
+#right-about {padding-top:30px;
+    width:33%;
+    float:right;
+background-color: azure;}
+
+    #center-about {width: 33%;
+        margin: 0 auto
+        ;
+    background-color: aquamarine;}
