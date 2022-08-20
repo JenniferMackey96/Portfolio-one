@@ -55,31 +55,27 @@ text-align:right;
 
 }
 
-#hero-image{
-
+#yoga {
     height: 600px;
     width: 100%;
-    background-image: url('../image/123.jpg')  no-repeat center center;
+    background-image: url('"/image/yoga pose.jpg')  no-repeat center center;
+    position: relative;
+ 
+}
+
+#namest {
+height: 250px;
+width:100px
+background-image: url('/image/namest.jpg')  no-repeat center center;
 
 animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
-    
-
-} 
-
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
 
 }
 
-
-/* creates the level of zoom for the hero image*/
-@keyframes hero-zoom {
+/* creates the level of zoom for the namest image*/
+@keyframes namest {
     from {
 transform: scale(1);
 
@@ -174,7 +170,7 @@ font-size: 150%;}
 }
 
 #times {
-background-image: url('../image/123.jpg');
+background-image: url('/image/namest.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -184,8 +180,8 @@ overflow:hidden;
 }
 #times div {
 color: #fafafa;
-background-color: rgba(164,219,232,7);
-width: 23%;
+background-color: rgba(164,116,72,7);
+width: 100%;
 height: 200px;
 text-align: justify;
 text-decoration: dotted;
@@ -201,8 +197,6 @@ form{
     width: 100%;
     margin: 10px auto;
     
-    
-
 }
 
 /* footer style */
@@ -222,11 +216,13 @@ footer{
 }
 
 .social-networks i {
-font-size: 160%;
+font-size: 100%;
 margin: 1%;
-padding: 5%;
-color: #3a3a3a
-
+padding: 5px;
+color: #3a3a3a;
+text-align: center;
+text-rendering: auto;
+border: 5px;
 
 }
 
@@ -336,3 +332,52 @@ text-align: center;
     #photos{
                     column-count: 2;}
     }
+    .contact-heading {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color:  #252525;
+        padding-top: 80px;
+    }
+    
+    .center-form {
+        padding-top: 20px;
+        margin: 0 auto;
+        max-width: 75%;
+    }
+    
+    button[type="submit"] {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #3a3a3a;
+        background-color: white;
+    }
+    
+    label{
+      display: inline-block;
+      margin: 5px 5px;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      color: #252525;
+    }
+    
+    form {
+        max-width:768px;
+        width:100%;
+        margin: 10px auto;
+        border: #252525;
+    }
+    
+    .contact-reason {
+            text-align: center;
+            text-transform: inherit;
+            
+    }
+
+    .copyright {
+        font-size: 15px;
+        text-align: center;
+    }
+   
+    
+      
