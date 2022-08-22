@@ -152,30 +152,28 @@ margin: 5px 0;}
         text-align: right;
     }
 
+    #circle-cover-bg { 
+        background-image: url('/image/pexels-dana-tentis-315843.jpg')  no-repeat center center;
+    height: 400px;
+    width: 95%;
+    border-radius: 50%;
+    position: relative ;
+   margin: auto
+    
+
+    }
 
     #welcome {text-align: center;
     margin: 20px 0;
 font-size: 150%;}
 
-#circle-container {
-
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
 #times {
-background-image: url('/image/namest.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-width:100%;
-overflow:hidden;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    overflow:hidden;
 
 }
 #times div {
@@ -183,11 +181,10 @@ color: #fafafa;
 background-color: rgba(164,116,72,7);
 width: 100%;
 height: 200px;
-text-align: justify;
-text-decoration: dotted;
+text-align: center;
+margin: auto;
 float: left;
 padding: 30px 0 0 10px;
-text-align: center;
 border: 2px solid #fafafa;
 box-sizing: border-box;
 }
