@@ -167,6 +167,7 @@ margin: 5px 0;}
     margin: 20px 0;
 font-size: 150%;}
 
+
 #times {
  
     background-repeat: no-repeat;
@@ -377,4 +378,9 @@ text-align: center;
     }
    
 
-      
+    #contact-center {
+        padding-top: 5%;
+        margin: auto;
+        padding-bottom: 10%;
+    }
+    
