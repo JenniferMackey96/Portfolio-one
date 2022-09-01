@@ -46,41 +46,22 @@ On the form page, once the calculate button is pressed, a modal opens with your 
 Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery, and Contact page and is identical on each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
 
-Nav Bar image 
 
 # The Footer
 The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
 It also contains a copyright stamp at the bottom.
 
-Footer image 
 
 # Gallery 
 
 The gallery page has a selection of related yoga pictures to demonstrate what we offer at the club.
 
-Gallery screenshot
 
 #Contact page
 My contact page is very simple. There are input fields for a name, email address, and a description of what the contact is concerning.
 
-contact page screenshot 
 
-# Testing
 
-# Valadation Testing
-HTML
-No errors were returned when passing through the official W3C validator
-
-Screenshot of html tester 
-
-CSS
-No errors were found when passing through the official Jigsaw validator
-
-screenshot of css tester 
-
-Lighthouse
-
-screenshot of lighthosuse 
 
 # Browser Compatibility
 I tested the appearance and responsiveness of 4 browsers (Chrome, Firefox, Opera, and Edge) and it showed good results in all browsers.
@@ -99,12 +80,16 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - https://jennifermackey96.github.io/Portfolio-one/
 
 # Credits
-# Credits
 Most of the code was developed by the use of Bootstrap's library and w3schools throughout the project to ensure the responsiveness of the website such as the Navbar, The Main Image, and Gallery. I also found some inspiration in two Code Institute projects: Love Running and with the help of slack and other students to help answer some issues I had throughout.
 
 # Media
 All the pictures are downloaded from pexels.com
-colour codes are from rapidtables.com
+Colour codes are from rapidtables.com
+Templates for code inspired by Love Running template
+Template Readme layout tips inspired by https://github.com/othneildrew/Best-README-Template/blob/master/README.md , https://markdown.land/readme-md , https://github.com/DanielMaherDev/MeditationMinds/blob/main/README.md#site-overview
+
+
+
 
 I would like to say a quick thank you to:
 
