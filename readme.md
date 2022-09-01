@@ -9,9 +9,8 @@ Castletroy Yoga & Mindfullness website is designed to provide information to end
 # Table of Contents
 
 Responsive Views
-User Experience Design (UX)
-Design
-Features
+User Experience Design (UX) Design
+Fatures
 Testing
 Deployment
 Credits
@@ -83,10 +82,10 @@ Lighthouse
 
 screenshot of lighthosuse 
 
-# Browser compatibility
+# Browser Compatibility
 I tested the appearance and responsiveness of 4 browsers (Chrome, Firefox, Opera, and Edge) and it showed good results in all browsers.
 
-# Test the footer
+# Test the Footer
 I selected the different social media icons on different devices and browsers also in order to check that they open in a different tab.
 
 # Contact Page
@@ -97,7 +96,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://8000-jennifermac-portfolioon-ct2q0phy9cv.ws-eu63.gitpod.io/index.html
+The live link can be found here - https://jennifermackey96.github.io/Portfolio-one/
 
 # Credits
 # Credits
